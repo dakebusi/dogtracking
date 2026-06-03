@@ -1,0 +1,5 @@
+dog_id,name,breed,color,accent,image_path
+1,Allau,Border Collie,#8b5cf6,#c4b5fd,/dogs/allau.jpg
+2,Arc,Labrador,#f97316,#fed7aa,/dogs/arc.jpg
+3,Balma,Husky,#06b6d4,#a5f3fc,/dogs/balma.jpg
+4,Bassa,Jack Russell,#22c55e,#bbf7d0,/dogs/bassa.jpg
