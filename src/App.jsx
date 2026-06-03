@@ -72,7 +72,7 @@ function combineDogsAndRuns(dogRows, runRows) {
       breed: row.breed,
       color: row.color,
       accent: row.accent,
-      imagePath: row.image_path,
+      imagePath: `${import.meta.env.BASE_URL}${row.image_path}`,
       runs: []
     });
   }, new Map());
