@@ -431,7 +431,7 @@ function App() {
   const [isMonthPickerOpen, setIsMonthPickerOpen] = useState(false);
 
   useEffect(() => {
-    Promise.all([fetch('/dogs.csv'), fetch('/dog-runs.csv')])
+    Promise.all([fetch(`${import.meta.env.BASE_URL}dogs.csv`), fetch(`${import.meta.env.BASE_URL}dog-runs.csv`)])
       .then((responses) => {
         if (responses.some((response) => !response.ok)) {
           throw new Error('Unable to load dog CSV data');
